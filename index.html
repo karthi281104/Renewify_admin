@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renewify Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="Renewify Logo" class="logo">
+            <h1>Admin Dashboard</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#user-interactions">User Interactions</a></li>
+                <li><a href="#community-posts">Community Posts</a></li>
+                <li><a href="#ad-revenue">Ad Revenue</a></li>
+                <li><a href="#data-insights">Data Insights</a></li>
+                <li><a href="#user-registrations">User Registrations</a></li>
+                <li><a href="#installation-requests">Installation Requests</a></li>
+                <li><a href="#loan-applications">Loan Applications</a></li>
+                <li><a href="#real-time-monitoring">Real-time Monitoring</a></li>
+                <li><a href="#maintenance-reports">Maintenance Reports</a></li>
+                <li><a href="#user-feedback">User Feedback</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="user-interactions">
+                <h2>User Interactions</h2>
+                <p>Total Users: <span id="total-users">1200</span></p>
+                <p>Active Users: <span id="active-users">850</span></p>
+                <div class="chart-container">
+                    <canvas id="user-interaction-chart"></canvas>
+                </div>
+            </section>
+            <section id="community-posts">
+                <h2>Community Posts</h2>
+                <p>Total Posts: <span id="total-posts">450</span></p>
+                <p>New Posts Today: <span id="new-posts">30</span></p>
+                <div class="chart-container">
+                    <canvas id="community-posts-chart"></canvas>
+                </div>
+            </section>
+            <section id="ad-revenue">
+                <h2>Ad Revenue</h2>
+                <p>Today's Revenue: <span id="today-revenue">$200</span></p>
+                <p>Monthly Revenue: <span id="monthly-revenue">$5000</span></p>
+                <div class="chart-container">
+                    <canvas id="ad-revenue-chart"></canvas>
+                </div>
+            </section>
+            <section id="data-insights">
+                <h2>Data Insights</h2>
+                <div class="chart-container">
+                    <canvas id="data-insights-chart"></canvas>
+                </div>
+            </section>
+            <section id="user-registrations">
+                <h2>User Registrations</h2>
+                <div class="chart-container">
+                    <canvas id="user-registrations-chart"></canvas>
+                </div>
+            </section>
+            <section id="installation-requests">
+                <h2>Installation Requests</h2>
+                <div class="chart-container">
+                    <canvas id="installation-requests-chart"></canvas>
+                </div>
+            </section>
+            <section id="loan-applications">
+                <h2>Loan Applications</h2>
+                <div class="chart-container">
+                    <canvas id="loan-applications-chart"></canvas>
+                </div>
+            </section>
+            <section id="real-time-monitoring">
+                <h2>Real-time Monitoring</h2>
+                <p>Electricity Generation: <span id="electricity-generation">Placeholder data</span></p>
+                <p>Biogas Production: <span id="biogas-production">Placeholder data</span></p>
+            </section>
+            <section id="maintenance-reports">
+                <h2>Maintenance Reports</h2>
+                <div class="chart-container">
+                    <canvas id="maintenance-reports-chart"></canvas>
+                </div>
+            </section>
+            <section id="user-feedback">
+                <h2>User Feedback</h2>
+                <div class="chart-container">
+                    <canvas id="user-feedback-chart"></canvas>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
